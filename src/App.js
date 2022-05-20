@@ -1,9 +1,11 @@
-import AboutMe from './components/AboutMe';
-import Footer from './components/Footer';
-import Introduction from './components/Introduction';
-import Navbar from './components/Navbar';
-import Skills from './components/Skills';
-import './css/App.css';
+import AboutMe from './components/AboutMe/AboutMe';
+import Footer from './components/Footer/Footer';
+import Introduction from './components/Introduction/Introduction';
+import Navbar from './components/Navbar/Navbar';
+import Skills from './components/Skills/Skills';
+
+
+
 
 function App() {
   return (

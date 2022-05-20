@@ -1,7 +1,7 @@
 const Introduction = () => {
   return (
     <>
-      <h1 id='introduction' className="introduction">Hola</h1>
+        <h1 id='introduction' className="introduction">Hola</h1>
     </>
   );
 };
