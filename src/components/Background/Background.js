@@ -1,5 +1,7 @@
+
 const Background = () => {
-    return ( <></> );
-}
- 
+
+  return <canvas></canvas>;
+};
+
 export default Background;

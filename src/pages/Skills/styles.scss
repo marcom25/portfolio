@@ -1,6 +1,8 @@
 .skills {
+
   background-color: #394152;
-  min-height: 85vh;
+  min-height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,6 +17,7 @@
 }
 
 .icon {
-  font-size: 5em;
+  display: flex;
+  font-size: 2.5em;
   margin: 0.05em auto;
 }
