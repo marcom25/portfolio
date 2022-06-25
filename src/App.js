@@ -6,6 +6,7 @@ import Footer from "./components/layouts/Footer/Footer";
 import Introduction from "./pages/Introduction/Introduction";
 import Navbar from "./components/layouts/Navbar/Navbar";
 import Skills from "./pages/Skills/Skills";
+import Projects from "./pages/Projects/Projects";
 
 function App() {
   return (
@@ -15,9 +16,13 @@ function App() {
       </Box>
       <Box>
         <Introduction />
+        <Background />
       </Box>
       <Box>
         <AboutMe />
+      </Box>
+      <Box>
+        <Projects />
       </Box>
       <Box>
         <Skills />
@@ -59,3 +64,4 @@ export default App;
 //     </div>
 //   </div>
 // </div>
+
