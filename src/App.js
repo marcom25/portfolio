@@ -1,67 +1,29 @@
-import { Grid, Box } from "@mui/material";
+import { Container, Row } from "react-bootstrap";
 
 import AboutMe from "./pages/AboutMe/AboutMe";
 import Background from "./components/Background/Background";
 import Footer from "./components/layouts/Footer/Footer";
-import Introduction from "./pages/Introduction/Introduction";
-import Navbar from "./components/layouts/Navbar/Navbar";
+import LandingPage from "./pages/LandingPage/LandingPage";
+import MyNavbar from "./components/layouts/Navbar/MyNavbar";
 import Skills from "./pages/Skills/Skills";
 import Projects from "./pages/Projects/Projects";
+import { Route } from "react-router-dom";
 
 function App() {
   return (
-    <Grid>
-      <Box>
-        <Navbar />
-      </Box>
-      <Box>
-        <Introduction />
+    <Container fluid className="main-container">
+      <Row>
+        <MyNavbar />
         <Background />
-      </Box>
-      <Box>
-        <AboutMe />
-      </Box>
-      <Box>
-        <Projects />
-      </Box>
-      <Box>
-        <Skills />
-      </Box>
-      <Box>
-        <Footer />
-      </Box>
-    </Grid>
+        <Route path="/" element={<LandingPage/>}/>
+        <Route path="about-me" element={<AboutMe/>}/>
+        <Route path="skills" element={<Skills/>}/>
+        <Route path="projects" element={<Projects/>}/>
+        <Footer/>
+      </Row>
+    </Container>
   );
 }
 
 export default App;
-
-// <Background/>
-// <div className='container mw-100'>
-//   <div className='row'>
-//     <div className='position-fixed col p-0'>
-//       <Navbar/>
-//     </div>
-//   </div>
-//   <div className='row'>
-//     <div className='col p-0'>
-//      <Introduction/>
-//     </div>
-//   </div>
-//   <div className='row'>
-//     <div className='col p-0'>
-//      <AboutMe/>
-//     </div>
-//   </div>
-//   <div className='row'>
-//     <div className='col p-0'>
-//      <Skills/>
-//     </div>
-//   </div>
-//   <div className='row'>
-//     <div className='col p-0'>
-//      <Footer/>
-//     </div>
-//   </div>
-// </div>
 

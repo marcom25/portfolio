@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel|Cinzel+Decorative');
 
 .background {
-    background-color: #282c34;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }

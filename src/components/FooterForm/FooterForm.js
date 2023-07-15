@@ -1,7 +1,7 @@
 const FooterForm = () => {
     return ( 
         <>
-        
+         <h1>FooterForm</h1>
         </>
     );
 }

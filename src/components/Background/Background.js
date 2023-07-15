@@ -1,26 +1,11 @@
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
-import backgroundConfig from "./background-config.json";
+import { Ratio } from "react-bootstrap";
+import videoBg from "../../images/VideoBg.mp4";
 
 const Background = () => {
-  console.log(backgroundConfig);
-  const particlesInit = async (main) => {
-   
-
-    
-    await loadFull(main);
-  };
-
-  const particlesLoaded = (container) => {
-  
-  };
   return (
-    <Particles
-      id="tsparticles"
-      init={particlesInit}
-      loaded={particlesLoaded}
-      options={backgroundConfig}
-    />
+    <>
+      <video src={videoBg} autoPlay loop muted className="background"/>
+    </>
   );
 };
 
