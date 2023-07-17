@@ -1,10 +1,13 @@
 import { Ratio } from "react-bootstrap";
 import videoBg from "../../images/VideoBg.mp4";
 
-const Background = () => {
+const Background = ({children}) => {
   return (
     <>
-      <video src={videoBg} autoPlay loop muted className="background"/>
+      <div className="bg-wrapper">
+        <video src={videoBg} autoPlay loop muted className="background"/>
+        {children}
+      </div>
     </>
   );
 };
