@@ -6,7 +6,7 @@ import "./pages/Projects/styles.css";
 import "./pages/Skills/styles.css";
 import "./components/Background/styles.css";
 import "./components/layouts/Footer/styles.css";
-// import "./components/layouts/Navbar/style.css"
+import "./components/layouts/Navbar/styles.css";
 
 import Background from "./components/Background/Background";
 import Footer from "./components/layouts/Footer/Footer";
@@ -20,21 +20,24 @@ import Projects from "./pages/Projects/Projects";
 function App() {
   return (
     <>
-      <Container fluid className="main-container">
-        <Row>
-          <Background>
+      <Background>
+        <Container fluid className="main-container d-flex flex-column justify-content-between">
+          <Row>
             <MyNavbar />
-          </Background>
-
-          <Footer />
-        </Row>
-      </Container>
-      <Routes>
-        <Route className="nav-link" path="/" element={<LandingPage />} />
-        <Route className="nav-link" path="about-me" element={<AboutMe />} />
-        <Route className="nav-link" path="skills" element={<Skills />} />
-        <Route className="nav-link" path="projects" element={<Projects />} />
-      </Routes>
+          </Row>
+          <Row>
+            <Routes>
+              <Route path="/" element={<LandingPage />} />
+              <Route path="about-me" element={<AboutMe />} />
+              <Route path="skills" element={<Skills />} />
+              <Route path="projects" element={<Projects />} />
+            </Routes>
+          </Row>
+          <Row>
+            <Footer />
+          </Row>
+        </Container>
+      </Background>
     </>
   );
 }

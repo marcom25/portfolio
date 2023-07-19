@@ -1,0 +1,15 @@
+.container-name{
+
+}
+
+.container-link{
+    display: flex !important;
+    justify-content: end !important;
+}
+
+.navbar-main-container {
+    background: rgba(39, 3, 62, 0.5);
+    backdrop-filter: blur(7.5px);
+    -webkit-background-filter: blur(7.5px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.18);
+}
