@@ -25,7 +25,7 @@ function App() {
           <Row>
             <MyNavbar />
           </Row>
-          <Row>
+          <Row className="m-auto">
             <Routes>
               <Route path="/" element={<LandingPage />} />
               <Route path="about-me" element={<AboutMe />} />
