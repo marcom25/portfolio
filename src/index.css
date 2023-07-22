@@ -15,5 +15,12 @@
   height: 100vh;
   padding: 0;
   overflow: hidden;
+  background: rgba(65, 3, 104, 0.5);
+  backdrop-filter: blur(7.5px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.18);
 }
 
+.row-content {
+  margin: 0 7em 7.75em 7em;
+  border-radius: 10px;
+}

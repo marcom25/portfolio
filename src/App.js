@@ -25,16 +25,13 @@ function App() {
           <Row>
             <MyNavbar />
           </Row>
-          <Row className="m-auto">
+          <Row className="row-content">
             <Routes>
               <Route path="/" element={<LandingPage />} />
               <Route path="about-me" element={<AboutMe />} />
               <Route path="skills" element={<Skills />} />
               <Route path="projects" element={<Projects />} />
             </Routes>
-          </Row>
-          <Row>
-            <Footer />
           </Row>
         </Container>
       </Background>
