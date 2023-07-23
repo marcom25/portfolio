@@ -21,7 +21,7 @@ function App() {
   return (
     <>
       <Background>
-        <Container fluid className="main-container d-flex flex-column justify-content-between">
+        <Container fluid className="main-container d-flex flex-column">
           <Row>
             <MyNavbar />
           </Row>

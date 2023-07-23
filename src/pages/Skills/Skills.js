@@ -13,14 +13,18 @@
 // import {ReactComponent as POSTMAN } from "../../images/postman.svg";
 // import {ReactComponent as PYTHON } from "../../images/python.svg";
 // import { Col, Container, Row } from "react-bootstrap";
-
-
+import { Container, Row, Col } from "react-bootstrap";
 
 const Skills = () => {
   return (
-    <>
-      <h1>Skills</h1>
-    </>
+    <Container>
+      <Row>
+        <h1>Skills</h1>
+      </Row>
+      <Row>
+        <h1>aca van los logos</h1>
+      </Row>
+    </Container>
   );
 };
 

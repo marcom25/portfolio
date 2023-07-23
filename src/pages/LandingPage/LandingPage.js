@@ -4,9 +4,9 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const LandingPage = () => {
   return (
-    <Container fluid className="text-center">
+    <Container fluid>
       <Row className="container-landing">
-        <Col className="text-col">
+        <Col className="text-col-lan">
           <h1 className="text-light main-title">
             Hi! I'm{" "}
             <span className="name">Marco Mignacco </span>
@@ -16,7 +16,7 @@ const LandingPage = () => {
             <Type />
           </p>
         </Col>
-        <Col className="img-col">
+        <Col className="img-col-lan">
           <IMAGE className="d-block landing-image" />
         </Col>
       </Row>

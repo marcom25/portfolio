@@ -1,13 +1,18 @@
+.about-me-row {
+  margin: 0 !important
+}
 
+.img-col-abt {
+  margin-right: 7em;
+}
 
-.about-me {
-    background-color: #1d2431;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-    margin: 0;
-  }
+.text-col-abt {
+  padding-top: 10em;
+  margin-left: 12em;
+  text-align: left;
+}
+
+.abt-description {
+  font-size: 2.4em;
+  color: white;
+}
