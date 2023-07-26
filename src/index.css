@@ -16,7 +16,7 @@
   padding: 0;
   overflow: hidden;
   background: rgba(65, 3, 104, 0.5);
-  backdrop-filter: blur(7.5px);
+  backdrop-filter: blur(12px);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.18);
 }
 

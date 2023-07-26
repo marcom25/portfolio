@@ -13,6 +13,34 @@
 }
 
 .abt-description {
-  font-size: 2.4em;
+  font-size: 1.5em;
   color: white;
+  
+}
+
+.list-abt {
+  list-style: none;
+}
+
+.list-abt > li {
+  padding: 3px 0 3px 0;
+}
+
+.name-abt {
+  color: rgb(119, 47, 207);
+}
+
+.bar-abt {
+  background-color: rgb(94, 42, 153);
+  width: 4px;
+  border-radius: 1px;
+}
+
+.description-container {
+  display: flex;
+}
+
+.icon-opt-abt {
+  color: purple;
+  padding-right: 10px;
 }
