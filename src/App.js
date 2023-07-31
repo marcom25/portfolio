@@ -1,4 +1,4 @@
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 import "./pages/AboutMe/styles.css";
 import "./pages/LandingPage/styles.css";
@@ -23,8 +23,11 @@ function App() {
       <Background>
         <Container fluid className="main-container d-flex flex-column">
           <Row>
-            <MyNavbar />
+            <Col>
+              <MyNavbar />
+            </Col>
           </Row>
+
           <Row className="row-content">
             <Routes>
               <Route path="/" element={<LandingPage />} />

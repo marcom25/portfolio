@@ -23,4 +23,6 @@
 .row-content {
   margin: 7em 7em 7.75em 7em;
   border-radius: 10px;
+  justify-content: center;
+  align-items: stretch;
 }
