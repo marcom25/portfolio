@@ -1,5 +1,8 @@
 .container-landing {
-  margin: 0 !important;
+  margin-top: 5rem;
+  max-width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .landing-image {
@@ -7,12 +10,12 @@
 }
 
 .img-col-lan {
-  margin-right: 7em;
+  margin-right: 15rem;
 }
 
 .text-col-lan {
   padding-top: 13em;
-  margin-left: 7em;
+  margin-left: 15rem;
   text-align: left;
 }
 
@@ -63,4 +66,38 @@
   100% {
     transform: rotate(0deg);
   }
+}
+
+.contact-me {
+  color: white;
+  font-size: 1.3em;
+}
+
+.github-button {
+  text-decoration: none;
+  margin: 0 4px 0 4px;
+  padding: 0 4px 0 4px;
+  border: solid white 2px;
+  border-radius: 5px;
+  background-color: violet;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.18);
+}
+
+.linkedin-button {
+  text-decoration: none;
+  margin: 0 4px 0 4px;
+  padding: 0 4px 0 4px;
+  border: solid white 2px;
+  border-radius: 5px;
+
+}
+
+.mail-button {
+  text-decoration: none;
+  margin: 0 4px 0 4px;
+  padding: 0 4px 0 4px;
+  border: solid white 2px;
+  border-radius: 5px;
+
 }

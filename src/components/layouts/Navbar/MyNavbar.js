@@ -4,34 +4,33 @@ import { Link } from "react-router-dom";
 
 const MyNavbar = () => {
   return (
-    <Navbar>
-      <Container className="justify-content-between">
-          <Col className="container-name">
-            <Link className="navbar-brand" to="/">
-              Marco Mignacco
-            </Link>
-          </Col>
+    <Navbar className="justify-content-center">
+      <Container className="justify-content-between nav-container">
+        <Col className="container-name">
+          <Link className="navbar-brand name-tag moli-font" to="/">
+            Marco Mignacco
+          </Link>
+        </Col>
 
-        
-          <Col>
-            <Nav className="container-link">
-              <Nav.Item>
-                <Link className="nav-link" to="/about-me">
-                  About Me
-                </Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Link className="nav-link" to="/skills">
-                  Skills
-                </Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Link className="nav-link" to="/projects">
-                  Projects
-                </Link>
-              </Nav.Item>
-            </Nav>
-          </Col>
+        <Col className="container-link">
+          <Nav>
+            <Nav.Item>
+              <Link className="nav-link link-tag capri-font" to="/about-me">
+                About Me
+              </Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Link className="nav-link link-tag capri-font" to="/skills">
+                Skills
+              </Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Link className="nav-link link-tag capri-font" to="/projects">
+                Projects
+              </Link>
+            </Nav.Item>
+          </Nav>
+        </Col>
       </Container>
     </Navbar>
   );

@@ -1,15 +1,35 @@
-.background {
-    filter: blur();
+.container-link {
+  display: flex !important;
+  justify-content: end !important;
+  margin-right: 15rem;
 }
 
-
-.container-link{
-    display: flex !important;
-    justify-content: end !important;
+.nav-container {
+    max-width: 100%;
 }
 
-.navbar-main-container {
-    /* background: rgba(39, 3, 62, 0.5);
-    backdrop-filter: blur(7.5px);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.18); */
+.container-name {
+  margin-left: 15rem;
+}
+
+.name-tag {
+  color: #9841df;
+  transition: color 0.1s ease-in-out;
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+.name-tag:hover {
+  color: #c07bf8;
+}
+
+.link-tag {
+  color: rgb(178, 69, 156);
+  font-size: 1.3em;
+  transition: color 0.1s ease-in-out;
+}
+
+.link-tag:hover {
+    color: #E793BAff;
+
 }

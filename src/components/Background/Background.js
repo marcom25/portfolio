@@ -1,5 +1,5 @@
 import { Ratio } from "react-bootstrap";
-import videoBg from "../../images/VideoBg.mp4";
+import videoBg from "../../assets/images/VideoBg.mp4";
 
 const Background = ({children}) => {
   return (

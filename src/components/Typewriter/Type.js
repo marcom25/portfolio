@@ -7,13 +7,12 @@ const options = {
     ],
     autoStart: true,
     loop: true,
-    deleteSpeed:50
+    deleteSpeed: 50,
 }
 
 const Type = () => {
   return <Typewriter 
     options={options}
-  
   />;
 };
 
