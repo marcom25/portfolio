@@ -21,6 +21,7 @@
 
 .main-title {
   font-size: 2.4em;
+  color: rgb(230, 184, 251);
 }
 
 .text-intro {
@@ -69,35 +70,109 @@
 }
 
 .contact-me {
-  color: white;
-  font-size: 1.3em;
+  color: rgb(230, 184, 251);
+  font-size: 1.5em;
 }
 
 .github-button {
   text-decoration: none;
-  margin: 0 4px 0 4px;
-  padding: 0 4px 0 4px;
-  border: solid white 2px;
+  margin: 0 4px 0 0;
+  padding: 0 1em 0 1em;
+  border: solid rgb(190, 83, 209) 3px;
   border-radius: 5px;
-  background-color: violet;
+  background-color: rgba(242, 171, 242, 0.3);
   backdrop-filter: blur(15px);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.18);
+  color: rgb(59, 1, 97);
+  display: flex;
+  align-items: center;
+  gap: 0.35em;
+  font-weight: 500;
+  transition: all 0.09s ease-in-out;
+}
+
+.github-button:hover {
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+  color: rgb(36, 41, 46);
+  border: solid rgb(36, 41, 46) 3px;
+  background-color: rgba(182, 191, 202, 0.3);
 }
 
 .linkedin-button {
   text-decoration: none;
   margin: 0 4px 0 4px;
-  padding: 0 4px 0 4px;
-  border: solid white 2px;
+  padding: 0.25em 1em 0.25em 1em;
+  border: solid rgb(190, 83, 209) 3px;
   border-radius: 5px;
+  background-color: rgba(242, 171, 242, 0.3);
+  backdrop-filter: blur(15px);
+  color: rgb(50, 5, 156);
+  display: flex;
+  align-items: center;
+  gap: 0.35em;
+  font-weight: 500;
+  transition: all 0.09s ease-in-out;
+}
 
+.linkedin-button:hover {
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+  color: rgb(219, 225, 232);
+  border: solid rgb(219, 225, 232) 3px;
+  background-color: rgba(49, 51, 53, 0.3);
 }
 
 .mail-button {
   text-decoration: none;
-  margin: 0 4px 0 4px;
-  padding: 0 4px 0 4px;
-  border: solid white 2px;
+  margin: 0 0 0 4px;
+  padding: 0 1em 0 1em;
+  border: solid rgb(190, 83, 209) 3px;
   border-radius: 5px;
-
+  background-color: rgba(242, 171, 242, 0.3);
+  backdrop-filter: blur(15px);
+  color: rgb(214, 2, 133);
+  display: flex;
+  align-items: center;
+  
+  font-weight: 500;
+  transition: all 0.09s ease-in-out;
 }
+
+.g {
+  padding-left: 0.35em;
+}
+
+.mail-button:hover {
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  border: solid rgb(199, 22, 16) 3px;
+  background-color: rgba(62, 101, 207, 0.3);
+}
+
+.mail-button:hover .email-logo {
+  color: rgb(199,22,16);
+}
+
+.mail-button:hover .g {
+  color: rgb(62,101,207) ;
+}
+
+.mail-button:hover .m {
+  color: rgb(199,22,16)
+}
+
+.mail-button:hover .a {
+  color: rgb(242,166,12)
+}
+
+.mail-button:hover .i {
+  color: rgb(62,101,207)
+}
+
+.mail-button:hover .l {
+  color: rgb(8,133,27);
+}
+/*
+rojo 199,22,16
+azul 62,101,207
+verde 8,133,27
+amarillo 242,166,12
+*/

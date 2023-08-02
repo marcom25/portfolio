@@ -1,16 +1,16 @@
-import { ReactComponent as CSS3 } from "../../images/css.svg";
-import { ReactComponent as REACT } from "../../images/react.svg";
-import { ReactComponent as BOOTSTRAP } from "../../images/bootstrap.svg";
-import { ReactComponent as EXPRESS } from "../../images/expressjs.svg";
-import { ReactComponent as GIT } from "../../images/git.svg";
-import { ReactComponent as GITHUB } from "../../images/github.svg";
-import { ReactComponent as HTML } from "../../images/html.svg";
-import { ReactComponent as JAVA } from "../../images/java.svg";
-import { ReactComponent as JAVASCRIPT } from "../../images/javascript.svg";
-import { ReactComponent as MYSQL } from "../../images/mysql.svg";
-import { ReactComponent as NODEJS } from "../../images/nodejs.svg";
-import { ReactComponent as POSTMAN } from "../../images/postman.svg";
-import { ReactComponent as PYTHON } from "../../images/python.svg";
+import { ReactComponent as CSS3 } from "../../assets/images/css.svg";
+import { ReactComponent as REACT } from "../../assets/images/react.svg";
+import { ReactComponent as BOOTSTRAP } from "../../assets/images/bootstrap.svg";
+import { ReactComponent as EXPRESS } from "../../assets/images/expressjs.svg";
+import { ReactComponent as GIT } from "../../assets/images/git.svg";
+import { ReactComponent as GITHUB } from "../../assets/images/github.svg";
+import { ReactComponent as HTML } from "../../assets/images/html.svg";
+import { ReactComponent as JAVA } from "../../assets/images/java.svg";
+import { ReactComponent as JAVASCRIPT } from "../../assets/images/javascript.svg";
+import { ReactComponent as MYSQL } from "../../assets/images/mysql.svg";
+import { ReactComponent as NODEJS } from "../../assets/images/nodejs.svg";
+import { ReactComponent as POSTMAN } from "../../assets/images/postman.svg";
+import { ReactComponent as PYTHON } from "../../assets/images/python.svg";
 // import { Col, Container, Row } from "react-bootstrap";
 
 const Skills = () => {

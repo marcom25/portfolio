@@ -13,23 +13,23 @@
 }
 
 .name-tag {
-  color: #9841df;
+  color: #9841df !important;
   transition: color 0.1s ease-in-out;
   font-size: 1.7em;
   font-weight: bold;
 }
 
 .name-tag:hover {
-  color: #c07bf8;
+  color: #c07bf8 !important;
 }
 
 .link-tag {
-  color: rgb(178, 69, 156);
+  color: rgb(178, 69, 156) !important;
   font-size: 1.3em;
-  transition: color 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 .link-tag:hover {
-    color: #E793BAff;
+    color: #E793BAff !important;
 
 }
