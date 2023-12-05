@@ -1,0 +1,68 @@
+@import "./static/scss/variables";
+@import "./static/scss/mixins";
+
+@import "./components/layouts/Navbar/styles";
+@import "./components/layouts/Footer/styles";
+@import "./components/Background/styles";
+@import "./pages/LandingPage/styles";
+@import "./pages/AboutMe/styles";
+@import "./pages/Projects/styles";
+@import "./pages/Skills/styles";
+
+
+@font-face {
+  font-family: "Capriola";
+  src: url("./assets/fonts/Capriola/Capriola-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Mono Lisa";
+  src: url("./assets/fonts/MonoLisa/MonoLisa-Regular.otf");
+}
+
+@font-face {
+  font-family: "Shippori Antique";
+  src: url("./assets/fonts/Shippori_Antique_B1/ShipporiAntiqueB1-Regular.ttf");
+}
+
+.capri-font {
+  font-family: "Capriola";
+}
+
+.moli-font {
+  font-family: "Mono Lisa";
+}
+
+.shippo-font {
+  font-family: "Shippori Antique";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  /* overflow: hidden; */
+
+  background: rgba(49, 18, 68, 0.65);
+  backdrop-filter: blur(15px);
+  /* box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.18); */
+}
+
+.row-content {
+  justify-content: center;
+  align-items: stretch;
+}
+
+.text-main-color {
+  color: rgb(230, 184, 251) !important;
+}
+
+.text-dark-color {
+  color: rgb(200, 0, 255) !important;
+} 
+

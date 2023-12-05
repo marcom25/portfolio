@@ -1,17 +1,15 @@
 import { Container, Row, Col } from "react-bootstrap";
 
-import "./pages/AboutMe/styles.css";
-import "./pages/LandingPage/styles.css";
-import "./pages/Projects/styles.css";
-import "./pages/Skills/styles.css";
-import "./components/Background/styles.css";
-import "./components/layouts/Footer/styles.css";
-import "./components/layouts/Navbar/styles.css";
+// import "./pages/AboutMe/styles.css";
+// import "./pages/LandingPage/styles.css";
+// import "./pages/Projects/styles.css";
+// import "./pages/Skills/styles.css";
+// import "./components/Background/styles.css";
+// import "./components/layouts/Footer/styles.css";
+// import "./components/layouts/Navbar/styles.css";
 
 import Background from "./components/Background/Background";
-import Footer from "./components/layouts/Footer/Footer";
 import MyNavbar from "./components/layouts/Navbar/MyNavbar";
-import { Route, Routes } from "react-router-dom";
 import LandingPage from "./pages/LandingPage/LandingPage";
 import AboutMe from "./pages/AboutMe/AboutMe";
 import Skills from "./pages/Skills/Skills";
@@ -21,20 +19,35 @@ function App() {
   return (
     <>
       <Background>
-        <Container fluid className="main-container d-flex flex-column">
-          <Row>
+        <Container fluid className="d-flex flex-column gap-4">
+          <Row className="nav-container sticky-top">
             <Col>
               <MyNavbar />
             </Col>
           </Row>
 
-          <Row className="row-content">
-            <Routes>
-              <Route path="/" element={<LandingPage />} />
-              <Route path="about-me" element={<AboutMe />} />
-              <Route path="skills" element={<Skills />} />
-              <Route path="projects" element={<Projects />} />
-            </Routes>
+          <Row id="landing" className="mx-5">
+            <Col>
+              <LandingPage />
+            </Col>
+          </Row>
+
+          <Row id="about-me" className="mx-5">
+            <Col>
+              <AboutMe />
+            </Col>
+          </Row>
+
+          <Row id="skills" className="mx-5">
+            <Col>
+              <Skills />
+            </Col>
+          </Row>
+
+          <Row id="projects" className="mx-5">
+            <Col>
+              <Projects />
+            </Col>
           </Row>
         </Container>
       </Background>

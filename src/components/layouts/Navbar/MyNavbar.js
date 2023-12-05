@@ -1,37 +1,36 @@
 import { Container, Navbar, Nav, Col, Row } from "react-bootstrap";
 
-import { Link } from "react-router-dom";
-
 const MyNavbar = () => {
   return (
-    <Navbar className="justify-content-center">
-      <Container className="justify-content-between nav-container">
+    <Navbar className="px-5 justify-content-between">
+      <Row>
         <Col className="container-name">
-          <Link className="navbar-brand name-tag moli-font" to="/">
+          <a href="#landing" className="navbar-brand name-tag moli-font">
             Marco Mignacco
-          </Link>
+          </a>
         </Col>
-
+      </Row>
+      <Row>
         <Col className="container-link">
           <Nav>
             <Nav.Item>
-              <Link className="nav-link link-tag capri-font" to="/about-me">
+              <a href="#about-me" className="nav-link link-tag capri-font">
                 About Me
-              </Link>
+              </a>
             </Nav.Item>
             <Nav.Item>
-              <Link className="nav-link link-tag capri-font" to="/skills">
+              <a href="#skills" className="nav-link link-tag capri-font">
                 Skills
-              </Link>
+              </a>
             </Nav.Item>
             <Nav.Item>
-              <Link className="nav-link link-tag capri-font" to="/projects">
+              <a href="#projects" className="nav-link link-tag capri-font">
                 Projects
-              </Link>
+              </a>
             </Nav.Item>
           </Nav>
         </Col>
-      </Container>
+      </Row>
     </Navbar>
   );
 };

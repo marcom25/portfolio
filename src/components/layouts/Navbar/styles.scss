@@ -1,0 +1,23 @@
+
+
+.nav-container {
+  @include set_bg_blur()
+}
+
+.name-tag {
+  color: $name-tag-color ;
+  transition: color 0.1s ease-in-out;
+}
+
+.name-tag:hover {
+  color: darken($name-tag-color, 10) ;
+}
+
+.link-tag {
+  color: $link-tag-color;
+  transition: all 0.1s ease-in-out;
+}
+
+.link-tag:hover {
+  color: darken($link-tag-color, 10);
+}
