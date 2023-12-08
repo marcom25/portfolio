@@ -3,31 +3,19 @@ import { projects } from "./projectList";
 
 const Projects = () => {
   return (
-    <Container>
-      <Row className="text-center text-light justify-content-center">
-        <h1>Projects</h1>
-      </Row>
-      <Row>
-        {projects.map((project) => (
-          <Col md={12} lg={4} key={project.id} className="conten-card">
-            <Card className="">
-              <Card.Img src={project.img} className="img" alt={project.alt} />
-              <Card.Body>
-                <Card.Title>{project.name}</Card.Title>
-                <Card.Text>{project.description}</Card.Text>
-                <Card.Text>
-                  Built with:
-                  {project.builtWith.map((i) => (
-                    
-                    <img src={i} className="d-inline-block svg-project" alt={project.builtWithAlt[i]} />
-                  ))}
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-        ))}
-      </Row>
-    </Container>
+    <Row className="bg-blur rounded-5  text-main-color flex-column gap-5">
+      <Col className="d-flex gap-3 flex-column mt-5">
+        <Row className="text-center justify-content-center">
+          <h1 className="capri-font">Projects</h1>
+        </Row>
+        <Row>
+          {projects.map(project => (
+            <Col key={project.id}>
+            </Col>
+          ))}
+        </Row>
+      </Col>
+    </Row>
   );
 };
 

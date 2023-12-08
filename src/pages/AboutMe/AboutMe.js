@@ -5,7 +5,7 @@ import Experience from "./Experience";
 import AcademicHistory from "./AcademicHistory";
 const AboutMe = () => {
   return (
-    <Row className="landing rounded-5 border border-3 border-ligth text-main-color flex-column gap-5">
+    <Row className="bg-blur rounded-5  text-main-color flex-column gap-5">
       <Col className="d-flex gap-3 flex-column mt-5">
         <Row className="text-center">
           <Col>
@@ -13,7 +13,7 @@ const AboutMe = () => {
           </Col>
         </Row>
         <Row className="px-4 justify-content-center">
-          <Col lg={6} className="d-flex justify-content-center ">
+          <Col lg={6} className="d-flex justify-content-center align-items-center">
             <p className="fs-4 mx-4">
               Hey there! I am{" "}
               <span className="name moli-font fw-bold">Marco Mignacco</span> a

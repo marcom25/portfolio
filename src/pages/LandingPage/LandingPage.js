@@ -6,7 +6,7 @@ import { RiMailSendLine } from "react-icons/ri";
 
 const LandingPage = () => {
   return (
-    <Row className="landing rounded-5 border border-3 border-ligth">
+    <Row className="landing rounded-5 ">
       <Col
         lg={7}
         className="d-flex flex-column align-items-center justify-content-center mw-100"

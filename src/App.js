@@ -20,7 +20,7 @@ function App() {
     <>
       <Background>
         <Container fluid className="d-flex flex-column gap-4">
-          <Row className="nav-container sticky-top">
+          <Row className="bg-blur sticky-top">
             <Col>
               <MyNavbar />
             </Col>

@@ -66,3 +66,7 @@
   color: rgb(200, 0, 255) !important;
 } 
 
+
+.bg-blur{
+  @include set_bg_blur()
+}
