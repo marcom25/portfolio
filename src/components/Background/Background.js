@@ -1,4 +1,4 @@
-import bgImage from "../../assets/images/bg-image.jpg";
+
 
 const Background = ({children}) => {
 

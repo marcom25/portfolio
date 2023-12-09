@@ -1,7 +1,14 @@
 import eSubastasLogo from "../../assets/images/esubastas-logo.jpg";
-import {v4 as uuidv4} from "uuid";
-import { BOOTSTRAP, HTML, CSS, ALPINEJS, TS, PYTHON, DJANGO, DOCKER, SASS, POSTGRESQL } from "../../utils/svgImports";
-
+import { v4 as uuidv4 } from "uuid";
+import {
+  BOOTSTRAP,
+  ALPINEJS,
+  TS,
+  DJANGO,
+  DOCKER,
+  SASS,
+  POSTGRESQL,
+} from "../../utils/svgImports";
 
 const experience = [
   {
@@ -11,7 +18,7 @@ const experience = [
     workDetails: `Develop the enterprises new page collaborating with a team of seven members,
                   for this we developed the software following the SCRUM agile method
     `,
-    tools: [BOOTSTRAP, SASS, TS, ALPINEJS, DJANGO, DOCKER, POSTGRESQL ]
+    tools: [BOOTSTRAP, SASS, TS, ALPINEJS, DJANGO, DOCKER, POSTGRESQL],
   },
 ];
 
@@ -31,13 +38,20 @@ const Experience = () => {
           <h5 className="fw-bold text-dark-color capri-font">
             {experience.enterpriseName}
           </h5>
-          <p className="mb-2 fw-bold shippo-font">{experience.workDateDuration}</p>
+          <p className="mb-2 fw-bold shippo-font">
+            {experience.workDateDuration}
+          </p>
           <p>{experience.workDetails}</p>
           <p className="d-flex gap-2 flex-column flex-lg-row">
-            <span>Technologies used:</span> 
+            <span>Technologies used:</span>
             <span className="d-flex mw-100 gap-1 justify-content-center align-items-center">
-            {experience.tools.map(tool => (
-                <img key={uuidv4()} className="mw-100 experience-svg" src={tool.src} alt={tool.alt}/>
+              {experience.tools.map((tool) => (
+                <img
+                  key={uuidv4()}
+                  className="mw-100 experience-svg"
+                  src={tool.src}
+                  alt={tool.alt}
+                />
               ))}
             </span>
           </p>
