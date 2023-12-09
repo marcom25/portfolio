@@ -14,7 +14,7 @@ const AboutMe = () => {
         </Row>
         <Row className="px-4 justify-content-center">
           <Col lg={6} className="d-flex justify-content-center align-items-center">
-            <p className="fs-4 mx-4">
+            <p className="fs-4 mx-4 ">
               Hey there! I am{" "}
               <span className="name moli-font fw-bold">Marco Mignacco</span> a
               Software Analyst currently in my 4th year of my Software
@@ -42,7 +42,7 @@ const AboutMe = () => {
           </Nav>
         </Col>
         <Col className="d-flex justify-content-center">
-          <Tab.Content className="w-50">
+          <Tab.Content className="w-75">
             <Tab.Pane eventKey="first">
               <Experience />
             </Tab.Pane>

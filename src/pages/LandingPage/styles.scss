@@ -1,6 +1,4 @@
-.landing {
-  @include set_bg_blur();
-}
+
 
 .main-title {
   color: rgb(230, 184, 251);
@@ -10,6 +8,10 @@
   font-size: 2.5em;
   color: rgb(200, 0, 255);
   font-weight: 700;
+}
+
+.vr {
+  width: 3px;
 }
 
 .name {

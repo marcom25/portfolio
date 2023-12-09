@@ -6,30 +6,42 @@ import { RiMailSendLine } from "react-icons/ri";
 
 const LandingPage = () => {
   return (
-    <Row className="landing rounded-5 ">
+    <Row className="bg-blur rounded-5  text-main-color flex-column flex-md-row gap-5 p-5">
       <Col
-        lg={7}
+        lg={6}
         className="d-flex flex-column align-items-center justify-content-center mw-100"
       >
-        <Row className="flex-column w-75">
+        <Row className="flex-column w-100">
           <Col>
-            <h1 className="main-title shippo-font">
-              Hi! I'm <span className="name moli-font">Marco Mignacco </span>
-              <span className="wave">👋</span>
+            <h1 className="main-title shippo-font ">
+              Hi! <span className="wave">👋</span>
+              <br/> 
+              I'm <span className="name moli-font">Marco Mignacco </span>
+              
             </h1>
           </Col>
 
-          <Col>
-            <p className="text-intro capri-font">
+          <Col className="d-none d-md-block">
+            <div className="text-intro capri-font ">
               <Type />
-            </p>
+            </div>
+          </Col>
+
+          <Col className="d-flex d-md-none gap-3 capri-font">
+            <div className="vr text-main-color"></div>
+            <div className="">
+              <h3>Fullstack Developer</h3>
+              <h3>Software Analyst</h3>
+              <h3>Software Engineer Student</h3>
+
+            </div>
           </Col>
 
           <Col>
-            {" "}
+            
             <div className="contact-me d-flex flex-column shippo-font">
               Let's get in touch:
-              <div className="d-flex mt-3 capri-font gap-2">
+              <div className="d-flex mt-3 capri-font gap-2 flex-column align-items-start justify-content-start flex-md-row">
                 <a
                   role="button"
                   className="github-button text-decoration-none px-3 py-2 rounded-2 d-flex align-items-center gap-1 fw-normal"
@@ -73,7 +85,7 @@ const LandingPage = () => {
         </Row>
       </Col>
       <Col lg={5}>
-        <IMAGE className="d-block mw-100" />
+        <IMAGE className="mw-100" />
       </Col>
     </Row>
   );

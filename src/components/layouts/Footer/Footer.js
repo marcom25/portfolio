@@ -1,28 +1,8 @@
-import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
+
+
 
 const Footer = () => {
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_37u2gnx",
-        "contact_me_form",
-        form.current,
-        "76E8G2O-oc5Z35pr7"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
+  
   return (
     <>
 

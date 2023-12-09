@@ -1,5 +1,5 @@
 @mixin set_bg_blur() {
-    background-color: $background-color;
+    background-color: $background-color !important;
     backdrop-filter: blur(30px);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
 

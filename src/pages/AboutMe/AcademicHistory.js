@@ -8,12 +8,12 @@ const AcademicHistory = () => {
           <img
             className="mw-100 object-fit-contain rounded-circle"
             src={siglo21}
-            alt="e-subastas-logo"
+            alt="siglo-logo"
           />
         </span>
 
-        <h5 className="fw-bold text-dark-color">Universidad Empresarial Siglo21</h5>
-        <p className=" mb-2 fw-bold">Software Engineering | 2021 - Now </p>
+        <h5 className="fw-bold text-dark-color capri-font">Universidad Empresarial Siglo21</h5>
+        <p className=" mb-2 fw-bold shippo-font">Software Engineering | 2021 - Now </p>
         <p className="">
           Currently on my 4th year (29/39 approved subjects)
         </p>
@@ -23,12 +23,12 @@ const AcademicHistory = () => {
           <img
             className="mw-100 object-fit-contain rounded-circle"
             src={siglo21}
-            alt="e-subastas-logo"
+            alt="siglo-logo"
           />
         </span>
 
-        <h5 className="fw-bold text-dark-color">Universidad Empresarial Siglo21</h5>
-        <p className=" mb-2 fw-bold">Software Analyst | 2021 - 2023</p>
+        <h5 className="fw-bold text-dark-color capri-font">Universidad Empresarial Siglo21</h5>
+        <p className=" mb-2 fw-bold shippo-font">Software Analyst | 2021 - 2023</p>
         <p className="">
           
         </p>

@@ -21,3 +21,28 @@
 .link-tag:hover {
   color: darken($link-tag-color, 10);
 }
+
+.navbar-toggler{
+  color: $link-tag-color;
+  border: none;
+  font-size: calc(1.3rem + .6vw)!important;
+  
+  &:focus {
+    box-shadow: none;
+    outline: none;
+    text-decoration: none;
+  }
+
+  &:focus-visible {
+    outline: none;
+  }
+
+}
+
+.offcanvas {
+  height: fit-content !important;
+}
+
+.offcanvas.show:not(.hiding), .offcanvas.showing {
+  @extend .bg-blur
+}

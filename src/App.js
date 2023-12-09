@@ -26,25 +26,25 @@ function App() {
             </Col>
           </Row>
 
-          <Row id="landing" className="mx-5">
+          <Row id="landing" className="mx-lg-5 mx-1">
             <Col>
               <LandingPage />
             </Col>
           </Row>
 
-          <Row id="about-me" className="mx-5">
+          <Row id="about-me" className="mx-lg-5 mx-1">
             <Col>
               <AboutMe />
             </Col>
           </Row>
 
-          <Row id="skills" className="mx-5">
+          <Row id="skills" className="mx-lg-5 mx-1">
             <Col>
               <Skills />
             </Col>
           </Row>
 
-          <Row id="projects" className="mx-5">
+          <Row id="projects" className="mx-lg-5 mx-1">
             <Col>
               <Projects />
             </Col>

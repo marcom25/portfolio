@@ -3,8 +3,8 @@ import Typewriter from "typewriter-effect";
 const options = {
     strings: [
         "Fullstack Developer",
+        "Software Analyst",
         "Software Engineer Student",
-        "Software Analyst"
     ],
     autoStart: true,
     loop: true,
