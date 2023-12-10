@@ -13,7 +13,7 @@ const Projects = () => {
         </Row>
         {projects.map((project) => (
           <Row
-            className="gap-5 justify-content-center bg-card mx-5 p-3 rounded-2 p-0 overflow-hidden flex-column flex-lg-row"
+            className="gap-5 justify-content-center bg-card mx-1 mx-lg-5 p-3 rounded-2 p-0 overflow-hidden flex-column flex-lg-row"
             key={uuidv4()}
           >
             <Col className="p-0 d-flex align-content-center justify-content-center">
@@ -43,7 +43,7 @@ const Projects = () => {
                   </span>
                 </p>
               </div>
-              <div className="d-flex gap-3 justify-content-center">
+              <div className="d-flex gap-3 justify-content-center flex-column flex-lg-row">
                 <a
                   role="button"
                   href={project.repoLink}
